@@ -1,0 +1,139 @@
+@media (max-width: 453px)
+{
+    .nav{
+        width: 100%;
+        height: 80px;
+        align-items: center;
+        justify-content: space-evenly;
+        display:  flex;
+        padding: 0 4vw;
+        position: fixed;
+        gap: 2vw;
+        z-index: 99;
+    }
+    .nav img{
+        height: 4vw;
+    }
+
+    .main{
+        overflow: hidden;
+    }
+
+    html,body{
+        color: #fff;
+        width: 100%;
+        height: 50%;
+    }
+    
+    video{
+        width: 100%;
+        height: 72%;
+        z-index: -1;
+        object-fit: cover;
+        position: fixed;
+    }
+
+    .page1{
+        min-height: 70vh;
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 10;
+    }
+    
+    .page1 h1{
+        font-size: 7vw;
+        font-weight: 900;
+        text-align: center;
+        margin-top: 5vw;
+        margin-bottom: 2vw;
+        position: relative;
+    }
+    
+    .page1 h1::before{
+        content: "EAT. DRINK. PLAY.";
+        position: absolute;
+        color: #000;
+        top: -4px;
+        left: -4px;
+        -webkit-text-stroke: 2px #95ce11;
+        z-index: -1;
+    }
+ 
+    .page2{
+        width: 100%;
+        min-height: 50vh;
+        z-index: 10;
+        background: #000;
+    }
+
+    .about-us{
+        display: flex;
+        height: 25vh;
+        width: 100%;
+        padding: 0 4vw;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .cards-container{
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10vw;
+        position: relative;
+        z-index: 99;
+    }
+
+    .green-div{
+        height: 25vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: linear-gradient(to left bottom, #95ce11, green);
+    }
+    
+    .page3{
+        width: 100%;
+        height: 45vh;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .page4{
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10vw;
+        background-color: #000;
+        position: relative;
+    }
+    
+    .elem{
+        width: 20%;
+        border-radius: 5vw;
+        height: 50%;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .footer{
+        position: relative;
+        width: 100%;
+        height: 25vh;
+        overflow: hidden;
+        background: linear-gradient(to left bottom, #95ce11, green);
+    }
+    
+    
+    
+}
